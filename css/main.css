@@ -1,0 +1,258 @@
+
+html, #weather, main, body {
+	height: 100%;
+
+}
+
+main {
+	overflow: hidden;
+	font-family: 'Lora', serif;
+	background-color: #69c2c9;
+}
+
+
+.first {
+	height: 10%;
+
+}
+
+.second {
+	height: 45%;
+	overflow: hidden;
+	position: relative;
+
+}
+
+			.left {
+				float: left;
+				width: 60%;
+				text-align: center;
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+				
+
+			}	
+
+			.right {
+				float: left;
+				width: 40%;
+				position: relative;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+
+.third {
+	height: 22.5%;
+	background-color: rgba(255,255,255,.4);
+
+}
+
+.fourth { 
+	height: 22.5%;
+	background-color: rgba(255,255,255,.4);
+
+ }
+
+.today, .tomorrow {
+	background-color: rgba(255,255,255,.7);
+	overflow: hidden;
+	border-radius: 5px;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.today {
+    height: 60%;
+    position: relative;
+    top:1.5rem;
+    margin-bottom: 3rem;
+}
+
+.tomorrow {
+	height: 30%;
+
+
+
+
+}
+
+	.tomorrow .first {
+		height: 35%;
+
+
+	}
+
+	.tomorrow .second {
+		height: 65%;
+	}
+
+
+.today h1 {
+	font-weight: 400;
+	padding-left: 1.5rem;
+	font-size: 1rem;
+	color: #314584;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: left;
+	font-style: italic;
+
+}
+
+.tomorrow h1 {
+	text-align: center;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 1.5rem;
+	color: #314584;
+
+}
+
+
+h2 {
+	font-size: 4.5rem;
+	padding: 0;
+	margin: 0 auto;
+	font-weight: 700;
+	line-height: 1;
+	text-align: left;
+	color: #314584;
+}
+
+
+h2 span {
+	font-size: 1.5rem;
+	font-weight: 500;	
+	color: #59647c;
+	font-weight: 700;
+	display: block;
+}
+
+h3 {
+	color: #59647c;
+}
+
+
+
+.first img {
+	color: #59647c;
+	height: 100%;
+	padding-right: .7rem;
+	margin: 0 auto;
+	float: right;
+	text-align: right;
+
+
+}
+
+.icon {
+	font-size: 15.5rem;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0;
+	color: #314584;
+	
+}
+
+
+.today h3 {
+	text-align: left;
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+.third p {
+	float: left;
+	width: 50%;
+	text-align: center;
+	overflow: hidden;
+	font-size: 2rem;
+	margin: 0;
+	color: #59647c;
+	font-weight: 700;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.fourth p {
+	font-size: 1.1rem;
+	
+}
+
+.fourth p {
+	text-align: center;
+	overflow: hidden;
+	line-height: 2rem;
+	margin: 0;
+	padding: 0;
+	color: #59647c;
+	font-weight: 700;
+
+
+}
+
+.fourth p span {
+	font-style: italic;
+}
+
+.tomorrow p {
+	text-align: center;
+	font-size: 1.5rem;
+	margin: 0;
+	color: #59647c;
+	font-weight: 700;
+
+}
+
+
+
+p span {
+	font-weight: 400;
+}
+
+
+
+.tomorrow i {
+	font-size: 10rem;
+}
+
+.tomorrow h3 {
+	text-align: center;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 1;
+}
+
+
+.tomorrow .left {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.tomorrow .middle {
+	float: left;
+	width: 33.3%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.tomorrow .right {
+	float: left;
+	width: 33.3%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
